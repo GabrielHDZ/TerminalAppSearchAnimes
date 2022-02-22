@@ -1,0 +1,15 @@
+{
+  "name": "terminalclimaapi",
+  "version": "1.0.0",
+  "description": "terminal app for clima",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GabrielHDZ",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.2.0"
+  }
+}

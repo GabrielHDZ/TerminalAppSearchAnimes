@@ -5,3 +5,4 @@ Aplicacion de terminal para realizar busquedas de animes con palabras clave, uti
 
 - add typescript
 - change axios for fetch
+- use modules, no more require

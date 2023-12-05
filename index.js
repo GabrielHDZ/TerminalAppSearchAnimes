@@ -1,7 +1,7 @@
 require('dotenv').config();
 const { menu, pause, leerInput, listadoAnimes } = require('./helpers/inquirer');
-const { Busqueda } = require('./models/modelo');
-
+import Busqueda from "./models/modelo";
+/* const Busqueda = require('./models/modelo'); */
 const busqueda = new Busqueda()
 //console.log(process)
 console.log(process.env)

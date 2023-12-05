@@ -1,5 +1,6 @@
 {
   "name": "terminalclimaapi",
+  "type": "module",
   "version": "1.0.0",
   "description": "terminal app search animes",
   "main": "index.js",

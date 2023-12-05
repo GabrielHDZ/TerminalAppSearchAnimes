@@ -31,7 +31,6 @@ class Busqueda {
             id: anime.mal_id,
             title: anime.title
         }));
-
     }
     // El EndPoint no necesita parametros, solamente concatenar el id
     async buscadorEspecifico(id = '121212') {
@@ -69,7 +68,6 @@ class Busqueda {
             console.error(error);
         }
         //console.log(rServer)
-
     }
 }
 

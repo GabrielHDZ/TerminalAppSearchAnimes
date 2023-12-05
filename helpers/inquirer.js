@@ -33,11 +33,11 @@ const pause = async () => {
         {
             type: 'input',
             name: 'respuesta',
-            message: 'presione ENTEr pasa salir'
+            message: 'presione ENTER pasa salir'
         })
 }
 //leer los datos escritos en consola y validar los mismos
-const leerInput = async (message) => {
+async function leerInput (message){
     const { desc } = await inquirer.prompt({
         type: 'input',
         name: 'desc',

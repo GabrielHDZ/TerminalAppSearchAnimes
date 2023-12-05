@@ -1,6 +1,5 @@
 const axios = require('axios');
 
-
 class Busqueda {
     historial = ['dato1', 'dato2'];
     constructor() {

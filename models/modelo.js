@@ -1,6 +1,6 @@
 const axios = require('axios');
 
-class Busqueda {
+export class Busqueda {
     historial = ['dato1', 'dato2'];
     constructor() {
         //leer los datos de la DB archivo JSON
@@ -71,4 +71,4 @@ class Busqueda {
     }
 }
 
-module.exports = { Busqueda }
+//module.exports = { Busqueda }

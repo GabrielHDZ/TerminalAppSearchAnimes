@@ -108,7 +108,6 @@ const confirmacion = async (message) => {
     )
     return ok;
 }
-
 module.exports = {
     menu, pause, leerInput, listadoTareasBorrar, confirmacion, listadoTareasChecker
 }

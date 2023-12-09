@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+import inquirer from 'inquirer';
 require('colors')
 
 const preguntas = [
